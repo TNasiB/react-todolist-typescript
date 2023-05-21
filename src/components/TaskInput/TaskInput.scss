@@ -1,0 +1,10 @@
+.t-input {
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__placeholder {
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,9 @@
+.task-list {
+  list-style-type: decimal;
+
+  &__wrap {
+    border: 1px solid #88888850;
+    padding: 30px;
+    border-radius: 5px;
+  }
+}

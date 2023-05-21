@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  &__lists-wrap {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
